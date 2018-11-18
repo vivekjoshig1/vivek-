@@ -1,0 +1,4 @@
+username : face
+password : detect
+dsn : mydsn
+

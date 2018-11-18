@@ -1,0 +1,10 @@
+Main-Class: login
+
+
+than save "file.mf"
+than aftr make jar
+F:\all new projec 2016 update\project15-16\Face Rec\FR\Face Detection>jar cvfm a
+b.jar abc.mf login.java login.class
+added manifest
+adding: login.java(in = 3647) (out= 1265)(deflated 65%)
+adding: login.class(in = 4066) (out= 2241)(deflated 44%)

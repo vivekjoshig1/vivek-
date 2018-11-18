@@ -1,0 +1,89 @@
+introduction of this project :this project simply make simple img on using database.just like scatching of any body.
+how run this project :
+step 1:1 st install oracle nd jdk.
+than creat user nd pwd. in oracle.
+QL*Plus: Release 10.2.0.1.0 - Production on Sun Sep 17 12:31:07 2017
+step 2:
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+SQL> conn
+Enter user-name: system/vivek6785
+Connected.
+SQL> create user dil1 identified by dil1;
+
+User created.
+
+SQL> grant dba to dil1;
+
+Grant succeeded.
+
+SQL> commit;
+
+Commit complete.
+step 3: goes project folder in face recognigation.in find dump file data.dmp.
+ald+d(url) type than ->cmd-enter.
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\vivek\Desktop\Face Rec>imp
+
+Import: Release 10.2.0.1.0 - Production on Sun Sep 17 12:33:30 2017
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+Username: dil1/dil1
+
+Connected to: Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+
+Import file: EXPDAT.DMP > data.dmp
+
+Enter insert buffer size (minimum is 8192) 30720> 12333
+
+Export file created by EXPORT:V10.02.01 via conventional path
+
+Warning: the objects were exported by FACE, not by you
+
+import done in WE8MSWIN1252 character set and AL16UTF16 NCHAR character set
+import server uses AL32UTF8 character set (possible charset conversion)
+List contents of import file only (yes/no): no > n
+
+Ignore create error due to object existence (yes/no): no > y
+
+Import grants (yes/no): yes > y
+
+Import table data (yes/no): yes > y
+
+Import entire export file (yes/no): no > y
+
+. importing FACE's objects into DIL1
+. . importing table                        "BEARD"          5 rows imported
+. . importing table                          "EAR"          5 rows imported
+. . importing table                          "EYE"          5 rows imported
+. . importing table                         "FACE"          5 rows imported
+. . importing table                         "HAIR"          5 rows imported
+. . importing table                         "LIPS"          5 rows imported
+. . importing table                        "LOGIN"          1 rows imported
+. . importing table                     "MUSTACHE"          5 rows imported
+. . importing table                         "NOSE"          5 rows imported
+. . importing table                 "REGISTRATION"          1 rows imported
+Import terminated successfully without warnings.
+
+C:\Users\vivek\Desktop\Face Rec>
+
+than import all table ..
+step 4: set classpath in  in my computer->right click->properties->advance system setting->environment variable->new->variable name classpath
+than value:C:\oraclexe\app\oracle\product\10.2.0\server\jdbc\lib\ojdbc14.jar;
+than ok->ok-ok.
+step 5:
+how to run this project 
+go this folder of project :C:\Users\vivek\Desktop\Face Rec\FR\Face Detection
+than url in type cmd->javac login.java
+than run java login
+step 6:click on registration with full information using user name and pwd (must be remember).after registration successfull->back on click than login
+user nd pwd (ducat/ducat)than make image on our project ->than save after goes ur running folder in snap ..
+step 7: how to check database file:
+localhost:8080/apex
+username :dil1
+password:dil1
+than browser after check table in data ok..
+ok i think u run successfully this project by dilip sir..
